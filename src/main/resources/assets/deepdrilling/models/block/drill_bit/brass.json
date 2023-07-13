@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "deepdrilling:block/drill_bit/base",
+	"textures": {
+		"0": "create:block/brass_block",
+		"particle": "create:block/brass_block"
+	}
+}

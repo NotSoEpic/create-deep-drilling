@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "deepdrilling",
+  "version": "${version}",
+  "name": "Create: Deep Drilling",
+  "description": "Adds complex processes to extract resources from the very core",
+  "authors": [
+    "dindcrzy"
+  ],
+  "contact": {
+    "sources": "https://github.com/Fabricators-of-Create/create-fabric-addon-template"
+  },
+  "license": "CC0",
+  "icon": "assets/deepdrilling/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.dindcrzy.deepdrilling.DeepDrilling"
+    ],
+    "client": [
+      "com.dindcrzy.deepdrilling.DeepDrillingClient"
+    ],
+    "fabric-datagen": [
+      "com.dindcrzy.deepdrilling.DataGenerator"
+    ]
+  },
+  "mixins": [
+    "deepdrilling.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${fabric_loader_version}",
+    "fabric-api": ">=${fabric_api_version}",
+    "create": "${create_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
